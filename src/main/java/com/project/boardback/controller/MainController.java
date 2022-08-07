@@ -1,4 +1,4 @@
-package com.project.boardback;
+package com.project.boardback.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
