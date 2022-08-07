@@ -1,7 +1,7 @@
 package com.project.boardback;
 
-import com.project.boardback.dao.QuestionRepository;
-import com.project.boardback.domain.Question;
+import com.project.boardback.question.dao.QuestionRepository;
+import com.project.boardback.question.domain.Question;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

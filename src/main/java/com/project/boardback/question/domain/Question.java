@@ -1,5 +1,6 @@
-package com.project.boardback.domain;
+package com.project.boardback.question.domain;
 
+import com.project.boardback.answer.domain.Answer;
 import lombok.Getter;
 import lombok.Setter;
 
