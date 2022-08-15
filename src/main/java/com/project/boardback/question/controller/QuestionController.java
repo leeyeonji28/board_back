@@ -1,5 +1,6 @@
 package com.project.boardback.question.controller;
 
+import com.project.boardback.answer.AnswerForm;
 import com.project.boardback.question.QuestionForm;
 import com.project.boardback.question.domain.Question;
 import com.project.boardback.question.service.QuestionService;
@@ -28,7 +29,7 @@ public class QuestionController {
     }
 
     @RequestMapping(value = "/detail/{id}")
-    public String detail(Model model, @PathVariable("id") Integer id){
+    public String detail(Model model, @PathVariable("id") Integer id, AnswerForm answerForm){
         Question question = this.questionService.getQuestion(id);
         model.addAttribute("question", question);
         return "question_detail";
